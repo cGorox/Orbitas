@@ -1,0 +1,14 @@
+:root {
+  --latte127: rgb(127, 124, 115);
+  --latte31: 31, 30, 28);
+}
+
+body {
+  background: var(--latte31);
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  color: var(latte127);
+}
