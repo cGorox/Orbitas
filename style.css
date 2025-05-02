@@ -9,6 +9,6 @@ body {
 
 h1 {
   text-align: center;
-  font-size: 60px;
-  color: var(latte127);
+  font-size: 120px;
+  color: var(--latte127);
 }
