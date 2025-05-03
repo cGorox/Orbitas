@@ -1,6 +1,8 @@
 :root {
-  --latte127: rgb(127, 124, 115);
-  --latte31: rgb(31, 30, 28);
+    --latte191: rgb(191, 186, 173);
+    --latte127: rgb(127, 124, 115);
+    --latte63: rgb(63, 61, 57);
+    --latte31: rgb(31, 30, 28);
 }
 
 body {
@@ -10,5 +12,8 @@ body {
 h1 {
   text-align: center;
   font-size: 60px;
-  color: var(--latte127);
+  color: var(--latte191);
+  border-style: groove;
+  border-width: 3px;
+  border-color: var(--latte63);
 }
