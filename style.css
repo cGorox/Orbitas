@@ -12,8 +12,14 @@ body {
 h1 {
   text-align: center;
   font-size: 60px;
-  color: var(--latte191);
+  color: var(--latte31);
+  text-shadow: 2px 2px var(--latte127);
   border-style: groove;
   border-width: 3px;
   border-color: var(--latte63);
 }
+
+  div {
+    width: 480px;
+    margin: auto;
+  }
