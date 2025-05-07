@@ -19,7 +19,12 @@ h1 {
   border-color: var(--latte63);
 }
 
-  div {
-    width: 540px;
-    margin: auto;
+img {
+    width: 480px;
+    height: 480px;
   }
+
+ div {
+    width: 480px;
+    margin: auto;
+ }
