@@ -19,12 +19,16 @@ h1 {
   border-color: var(--latte63);
 }
 
+h1:hover {
+    text-shadow: 2px 2px var(--latte191);
+}
+
 img {
     width: 480px;
     height: 480px;
   }
 
- div {
-    width: 480px;
-    margin: auto;
- }
+ .malla-contenedor {
+    display: grid;
+    grid-template-columns: 12.5% 40% 20%;
+  }
