@@ -30,8 +30,8 @@ img {
 .floatingDiv {
     float: left;
     width: 47%;
-    margin-right: 6px;
-    margin-left: 6px;
+    margin-right: 0.5%;
+    margin-left: 0.5%;
   }
 
   p {
