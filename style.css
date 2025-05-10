@@ -29,10 +29,9 @@ img {
 
 .floatingDiv {
     float: left;
-    width: 48%;
-    margin-right: 5px;
-    margin-left: 5px;
-    margin-bottom: 24px;
+    width: 47%;
+    margin-right: 6px;
+    margin-left: 6px;
   }
 
   p {
