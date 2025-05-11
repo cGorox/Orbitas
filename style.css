@@ -1,6 +1,7 @@
 :root {
     --latte191: rgb(191, 186, 173);
     --latte127: rgb(127, 124, 115);
+    --latte95: rgb(95, 92, 86);
     --latte63: rgb(63, 61, 57);
     --latte31: rgb(31, 30, 28);
 }
@@ -23,18 +24,16 @@ h1:hover {
     text-shadow: 2px 2px var(--latte191);
 }
 
+div {
+    width: 33%;
+    display: inline-block;
+}
+
 img {
     width: 100%;
-  }
+}
 
-.floatingDiv {
-    float: left;
-    width: 47%;
-    margin-right: 0.5%;
-    margin-left: 0.5%;
-  }
-
-  p {
+p {
     text-align: center;
-    color: black;
-  }
+    color: var(--latte95);
+ }
