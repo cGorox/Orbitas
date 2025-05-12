@@ -6,13 +6,17 @@
     --latte31: rgb(31, 30, 28);
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
   background: var(--latte31);
 }
 
 h1 {
   text-align: center;
-  font-size: 60px;
+  font-size: 400%;
   color: var(--latte31);
   text-shadow: 2px 2px var(--latte127);
   border-style: groove;
@@ -25,7 +29,7 @@ h1:hover {
 }
 
 div {
-    width: 32%;
+    width: 33%;
     display: inline-block;
 }
 
