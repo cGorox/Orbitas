@@ -50,5 +50,6 @@ h2 {
 
   h3 {
     color: var(--latte95);
+    font-size: small;
     text-shadow: 2px 2px black;
   }
