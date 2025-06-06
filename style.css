@@ -35,9 +35,11 @@ h2 {
   }
 
   img {
-    width: 23vw;
-    padding: 8px;
-    border: 4px solid black;
+    width: 29vw;
+    padding: 1vw;
+    border: 0.5vw solid black;
+    margin-left: 1vw;
+    margin-right: 1vw;
   }
 
   .contenedor {
