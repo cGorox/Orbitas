@@ -1,9 +1,10 @@
 :root {
     --latte191: rgb(191, 186, 173);
+    --latte159: rgb(159, 155, 144);
     --latte127: rgb(127, 124, 115);
-    --latte95: rgb(95, 92, 86);
-    --latte63: rgb(63, 61, 57);
     --latte31: rgb(31, 30, 28);
+    --latte23: rgb(23, 22, 21);
+    --latte15: rgb(15, 15, 14);
 }
 
 * {
@@ -11,48 +12,65 @@
 }
 
 body {
-  background: var(--latte31);
+    margin-top: -20px;
+    background: radial-gradient(var(--latte31), var(--latte15));
+}
+
+header {
+    text-align: center;
+    height: 4em;
 }
 
 h1 {
-  text-align: center;
-  font-size: 300%;
-  color: var(--latte31);
-  text-shadow: 2px 2px var(--latte127);
-  border-style: groove;
-  border-width: 3px;
-  border-color: var(--latte63);
+    font-size: 300%;
+    border: 3px groove var(--latte15);
+    color: var(--latte23);
+    text-shadow: 2px 2px var(--latte127);
 }
 
-h1:hover {
-    text-shadow: 2px 2px var(--latte191);
+main {
+    border: 3px, groove var(--latte15);
 }
 
-h2 {
+.lapso {
     text-align: center;
-    font-size: small;
-    color: var(--latte95);
-    text-shadow: 2px 2px black;
-  }
+    color: var(--latte127);
+    text-shadow: 2px 2px var(--latte15);
+}
 
-  img {
-    width: 29vw;
-    padding: 1vw;
-    border: 0.5vw solid black;
-    margin-left: 1vw;
-    margin-right: 1vw;
-  }
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
 
-  .contenedor {
+a {
+    text-decoration: none;
+}
+
+.planetas {
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+img {
+    width: 270px;
+    padding: 12px;
+    border: 3px, groove var(--latte15);
+}
+
+img:hover {
+    border: 3px groove var(--latte127);
+}
+
+.nombre {
     text-align: center;
-  }
-
-  .planeta {
-    display: inline-block;
-  }
-
-  h3 {
-    color: var(--latte95);
-    font-size: small;
+    color: var(--latte159);
     text-shadow: 2px 2px black;
-  }
+}
+
+h3:hover {
+    color: var(--latte191);
+}
